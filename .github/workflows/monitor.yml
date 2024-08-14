@@ -1,5 +1,6 @@
 name: monitor repos
 on:
+  workflow_dispatch:
   schedule:
     # Run every day
     - cron: '0 1 * * *'
